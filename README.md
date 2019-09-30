@@ -9,11 +9,12 @@
 ## Setup
 
 1. **Prepare Data**
-   Download `ILSVRC2012` dataset on http://image-net.org/challenges/LSVRC/2012/index#introduction
+
+   Download `ILSVRC2012` dataset from http://image-net.org/challenges/LSVRC/2012/index#introduction
 
 2. **Download Pretrained Models**
 
-   We provide serveral pretrained models that we reported on all paper on [Dropbox](<https://www.dropbox.com/sh/im1janxv5p8u5jm/AAA7s6danrqdL42UvteICARra?dl=0>). After download them, put them into`models/ckpt/`.
+   We provide reported pruned models in [Dropbox](<https://www.dropbox.com/sh/im1janxv5p8u5jm/AAA7s6danrqdL42UvteICARra?dl=0>). Please put the downloaded models in the dir of `models/ckpt/`.
 
 3. **Prepare Runtime Environment**
 
@@ -117,4 +118,4 @@ note={under review}
 
 ## Acknowledgments
 
-Since our paper is under ICLR2020 review, we only release evaluation code for now. Once the review is done, we will release full code, please watch this repo for timely update.
+Since our paper is under ICLR2020 review, we only release evaluation code for now. Once the review is done, a larger set of source code will be released. Please keep watching this repo for future updates.
